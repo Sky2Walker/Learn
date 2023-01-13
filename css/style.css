@@ -442,3 +442,22 @@ body{
     top: 7px;
     left: 0;
 }
+
+
+
+.form__radio-style--grey:hover{
+    background: #6F6F6F;
+    border: 2px solid #131313;
+    
+}
+
+.form__radio-style--white:hover{
+    background: #FFFFFF;
+    border: 2px solid #131313;
+
+}
+
+.form__radio-style--red:hover{
+    background: #FF4040;
+    border: 2px solid #131313;
+}
