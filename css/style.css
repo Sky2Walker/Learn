@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -375,6 +379,7 @@ body{
     border-radius: 30px;
     width: 80px;
     height: 12px;
+    transition: border-color .3s ease-in-out;
 }
 
 .form__radio-style--grey{
@@ -393,7 +398,7 @@ body{
 
 .form__btn{
     background-color: #131313;
-    padding: 28px 81px;
+    padding: 28px 71px 20px  81px;
     border: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -448,7 +453,7 @@ body{
 .form__radio-style--grey:hover{
     background: #6F6F6F;
     border: 2px solid #131313;
-    
+
 }
 
 .form__radio-style--white:hover{
@@ -460,4 +465,46 @@ body{
 .form__radio-style--red:hover{
     background: #FF4040;
     border: 2px solid #131313;
+}
+
+.footer{
+    background-color: #131313;
+}
+.footer__ihner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.footer__link{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__social-link + .footer__social-link{
+    margin-left: 26px;
+}
+
+.footer__contacts{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__contacts-link{
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts-link+ .footer__contacts-link{
+    margin-top: 10px;
+}
+
+.footer__contacts-img{
+    margin-right: 10px;
 }
